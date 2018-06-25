@@ -2,6 +2,7 @@ apiVersion: servicecatalog.k8s.io/v1beta1
 kind: ServiceBinding
 metadata:
   name: jpress-mariadb-binding
+  namespace: broker-test
 spec:
   instanceRef:
     name: jpress-mariadb-instance
